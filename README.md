@@ -1,10 +1,9 @@
-# Project Overview
-
-## Cosmic Horoscope Finder
+# Cosmic Zodiac Finder
 
 ## Project Description
 
-This web application will give the user they zodiac sun sign upon the user's input of their birth date (MM/DD). The application will then give the user additional data about their zodiac: element, good traits, bad traits, and compatiblilty with other signs. The application will also have functionality that gives them a playlist based on their sign.
+This web application will give the user they zodiac sun sign upon the user's input of their birth date (MM/DD). The application will also give the user additional data about their zodiac: element, good traits, bad traits, compatiblilty with other signs and last celebrities that share their zodiac. 
+
 ## API and Data Sample
 ### GIPHY
 https://developers.giphy.com/docs/api
