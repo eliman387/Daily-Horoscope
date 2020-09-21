@@ -195,18 +195,7 @@ https://developers.giphy.com/docs/api
                 }
             },
             "analytics_response_payload": "e=Z2lmX2lkPWhOVWRiQnczMGVhV3MmZXZlbnRfdHlwZT1HSUZfU0VBUkNIJmNpZD0zNzI5YmEyYmVpYWFrenNsMjB6ejJ3cWxjc2dvN3ZjaDAwcmJrZWw3dWEzdzM5Y2M",
-            "analytics": {
-                "onload": {
-                    "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=eiaakzsl20zz2wqlcsgo7vch00rbkel7ua3w39cc&event_type=GIF_SEARCH&gif_id=hNUdbBw30eaWs&action_type=SEEN"
-                },
-                "onclick": {
-                    "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=eiaakzsl20zz2wqlcsgo7vch00rbkel7ua3w39cc&event_type=GIF_SEARCH&gif_id=hNUdbBw30eaWs&action_type=CLICK"
-                },
-                "onsent": {
-                    "url": "https://giphy-analytics.giphy.com/simple_analytics?response_id=eiaakzsl20zz2wqlcsgo7vch00rbkel7ua3w39cc&event_type=GIF_SEARCH&gif_id=hNUdbBw30eaWs&action_type=SENT"
-                }
-            }
-        },
+},
 ````
 
 
@@ -345,26 +334,18 @@ https://i.imgur.com/2chPIwj.png
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- the application greets the user and ask for the input of their birthday
+- the application uses logic to calculate user's zodiac and displays on screen
+- the application will input the user's calculated zodiac into the giphy and zodiacal api
+- the application will render the data from the external api's onto the webpage
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add third API from Spotify (if I can get it to work). This API will show the user tracks from a curated playist based on the zodiac.
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -387,9 +368,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Input Values | H | 3hrs| 3.5hrs | 3.5hrs |
+| Calculating Input Values | H | 3hrs| 3.5hrs | 3.5hrs |
+| Working with API's | H | 3hrs| 3.5hrs | 3.5hrs |
+| Manipulating the DOM | H | 3hrs| 3.5hrs | 3.5hrs |
+| Styling Desktop Webpage | M | 3hrs| 3.5hrs | 3.5hrs |
+| Styling Mobile Webpage | M | 3hrs| 3.5hrs | 3.5hrs |
+
+| Total | - |  18~20 hrs| N/A | N/A |
 
 ## Code Snippet
 
