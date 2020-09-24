@@ -4,10 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script defer src="./app.js"></script>
   <title>Cosmic Zodiac Finder</title>
 </head>
 <body>
+  <header>
+    <img src="./noun_astrology_3382479.svg" alt="">
+      <h1>Cosmic Zodiac Finder</h1>
+  </header>
+  <main>
+    <div id="input-q">
+<form id="zodiac-form">
+  <label for="sun-signs">Choose a Sun-Sign:</label>
+
+  <select name="sun-signs" id="sun-signs">
+    <option disabled selected>Sun Sign</option>
+    <option value="Aries">Aries</option>
+    <option value="Taurus">Taurus</option>
+    <option value="Gemini">Gemini</option>
+    <option value="Cancer">Cancer</option>
+    <option value="Leo">Leo</option>
+    <option value="Virgo">Virgo</option>
+    <option value="Libra">Libra</option>
+    <option value="Scorpio">Scorpio</option>
+    <option value="Sagittarius">Sagittarius</option>
+    <option value="Capricorn">Capricorn</option>
+    <option value="Aquarius">Aquarius</option>
+    <option value="Pisces">Pisces</option>
+  </select>
+  <input id='button'type="submit" value="Submit">
+</form>
+    </div>
+    
+      <div id="api-info">
+        <div id="zodiacal">
   
+        </div>
+        <div id="giphy-grid">
+    
+        </div>
+
+      </div>
+  </main>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="./app.js"></script>
 </body>
+
 </html>

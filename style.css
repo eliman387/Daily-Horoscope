@@ -1,0 +1,61 @@
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: rgb(255, 203, 203);
+}
+
+header {
+  background-color: rgb(101, 31, 21);
+  height: 150px;
+  width: auto;
+  margin-top: -20px;
+}
+/* img {
+  display: inline;
+} */
+
+h1 {
+  display: inline;
+  color: antiquewhite;
+  text-align: center;
+}
+
+main {
+  height: 100vmax;
+  width: 90%;
+  background-color: blanchedalmond;
+  box-sizing: border-box;
+  margin: 0px auto;
+  
+}
+ #input-q {
+  display: flex;
+  height: 150px;
+  width: 90%;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 30px auto;
+  border: solid black 1px;
+}
+#api-info {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+
+}
+#zodiacal {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  margin: 30px auto;
+  display: inline-block;
+}
+#giphy-grid {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  display: inline-block;
+  margin: 30px auto;
+
+}
