@@ -32,7 +32,7 @@ function showGif(gifs) {
 async function GetData(zodiac) {
   removeZodiac()
   try {
-    const url = `http://zodiacal.herokuapp.com/${zodiac}`
+    const url = `https://zodiacal.herokuapp.com/${zodiac}`
     const response = await axios.get(url)
     // console.log(response);
     const data = response.data[0]
