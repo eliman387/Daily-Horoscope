@@ -336,8 +336,7 @@ https://i.imgur.com/2chPIwj.png
 
 #### MVP 
 
-- the application greets the user and ask for the input of their birthday
-- the application uses logic to calculate user's zodiac and displays on screen
+- the application greets the user and ask for the input of their zodiac
 - the application will input the user's calculated zodiac into the giphy and zodiacal api
 - the application will render the data from the external api's onto the webpage
 
@@ -349,11 +348,11 @@ https://i.imgur.com/2chPIwj.png
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Sept 21| Project Approval | Incomplete
-|Sept 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Sept 23| MVP | Incomplete
-|Sept 24| Post MVP/Styling | Incomplete
+|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|Sept 21| Project Approval | Complete
+|Sept 22| Core Application Structure (HTML, CSS, etc.) | Complete
+|Sept 23| MVP | Complete
+|Sept 24| Post MVP/Styling | Complete
 |Sept 25| Presentations | Incomplete
 
 ## Priority Matrix
@@ -362,30 +361,27 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Input Values | H | 3hrs| 3.5hrs | 3.5hrs |
-| Calculating Input Values | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API's | H | 3hrs| 3.5hrs | 3.5hrs |
-| Manipulating the DOM | H | 3hrs| 3.5hrs | 3.5hrs |
-| Styling Desktop Webpage | M | 3hrs| 3.5hrs | 3.5hrs |
-| Styling Mobile Webpage | M | 3hrs| 3.5hrs | 3.5hrs |
+| Adding Input Values | H | 3hrs| 2hrs | 2hrs |
+| Working with API's | H | 3hrs| 5hrs | 5hrs |
+| Manipulating the DOM | H | 3hrs| 5hrs | 5hrs |
+| Styling Desktop Webpage | M | 3hrs| 4hrs | 4hrs |
+| Styling Mobile Webpage | M | 3hrs| 2hrs | 2hrs |
 
-| Total | - |  18~20 hrs| N/A | N/A |
+| Total | - |  18~20 hrs| 19 hrs | 19 hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
-
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+    <h5 class='zodiac-text'>Element: ${data.element}</h5>
+    <h5 class='zodiac-text'>Good Traits: ${data.good_traits}</h5>
+    <h5 class='zodiac-text'>Bad Traits: ${data.bad_traits}</h5>
+    <h5 class='zodiac-text'>Compatibilty: ${data.compatibility}</h5>
+    <h5 class='zodiac-text'>Eminent Personalities: ${data.famous_people.slice(1, 8)}</h5>
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+- my spotify api didnt go according to plan so I axed it.
+- I decide not to use logic to calculate the zodiac, instead i just have the zodiac's in a select tag.
