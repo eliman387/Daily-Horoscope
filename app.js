@@ -5,9 +5,7 @@ async function getGiphy(zodiacValue) {
   try {
     const url2 = `https://api.giphy.com/v1/gifs/search?api_key=G77OZkQTttXxQoe4jOf1sv1LaBsP11Uz&q=${zodiacValue}&limit=6&offset=0&rating=g&lang=en`
     const response = await axios.get(url2)
-    console.log(response);
     const gifs = response.data.data
-    console.log(gifs);
     showGif(gifs)
   } catch (error) {
     console.log(`Error: ${error}`);
@@ -34,9 +32,9 @@ async function GetData(zodiac) {
   try {
     const url = `https://zodiacal.herokuapp.com/${zodiac}`
     const response = await axios.get(url)
-    // console.log(response);
+    
     const data = response.data[0]
-    // console.log(data);
+    
     showData(data)
   } catch (error) {
   console.log(`Error: ${error}`);
