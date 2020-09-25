@@ -92,7 +92,7 @@ header img {
   }
 
   #api-info {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   #zodiacal {
     width: 90%;
